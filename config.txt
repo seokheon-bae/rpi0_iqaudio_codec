@@ -22,7 +22,7 @@ gpu_mem=192
 # Enable I2C, SPI, and audio
 dtparam=i2c_arm=on
 dtparam=spi=on
-dtparam=audio=on
+#dtparam=audio=on
 
 # Comment this in or modify to enable OneWire
 # NOTE: check that the overlay that you specify is in the boot partition or
@@ -50,3 +50,4 @@ dtparam=act_led_trigger=heartbeat
 # To turn the LED completely off comment out the previous line and uncomment
 # the next.
 #dtparam=act_led_trigger=none
+dtoverlay=iqaudio-codec
