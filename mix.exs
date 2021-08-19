@@ -113,8 +113,8 @@ defmodule Rpi0IqaudioCodec.MixProject do
       "post-createfs.sh",
       "ramoops.dts",
       "README.md",
+      "asound.state",
       "VERSION"
-      "asound.state"
     ]
   end
 
