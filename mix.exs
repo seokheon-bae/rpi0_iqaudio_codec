@@ -114,6 +114,7 @@ defmodule NervesSystemRpi0.MixProject do
       "ramoops.dts",
       "README.md",
       "VERSION"
+      "asound.state"
     ]
   end
 

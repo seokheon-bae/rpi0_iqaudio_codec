@@ -9,3 +9,7 @@ $HOST_DIR/usr/bin/fwup -c -f $NERVES_DEFCONFIG_DIR/fwup-revert.conf -o $TARGET_D
 
 # Copy the fwup includes to the images dir
 cp -rf $NERVES_DEFCONFIG_DIR/fwup_include $BINARIES_DIR
+
+# Copy alsa sound state file to the /etc/.
+cp $NERVES_DEFCONFIG_DIR/asound.state ${TARGET_DIR}/etc/asound.state
+
